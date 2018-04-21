@@ -6,4 +6,5 @@ def hello_world():
     return 'Hey world , Flask Dockerized now'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.debug = True
+    app.run(host = '0.0.0.0')
